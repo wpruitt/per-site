@@ -1,3 +1,50 @@
+.navbar {
+    /* border: 1px solid rgb(210, 105, 30); */
+    margin: 5px 25px 10px ;
+    position: relative;
+    height: 35px;
+    background-color: black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 5px;
+}
+
 .button-nav {
+    display: inline;  
+}
+
+.button-nav a {
+    border-left: 1.5px solid blue;
+    border-bottom: 1.5px solid blue;
+    padding: 4px 6px;
+    text-align: center;
+    background-color: black;
+    color: orangered;
+    font-size: 18px;
+}
+
+.button-nav a:hover {
+    background-color: orangered;
+    color: blue;
+}
+
+.nav-left {
     display: inline;
+    position: absolute;
+    left: 4px;
+}
+
+.nav-right {
+    display: inline;
+    position: absolute;
+    right: 4px;
+}
+
+.nav-right li {
+    margin-left: 2px;
+    padding-left: 6px;
+    
 }
