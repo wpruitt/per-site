@@ -58,12 +58,12 @@
     background-repeat: no-repeat;
 }
 
-#main-summary, #main-header {
-    background: rgba(230, 227, 223, .6);
+aside {
+    display: inline-block;
 }
 
 /* Notepad */
-.notepad {
+.notepad:nth-child(odd) {
     display: block;
     height: 150px;
     width: 150px;
@@ -74,6 +74,27 @@
     /* background-color: rgb(253, 253, 17); */
     background-color: #ffc;
 }
+
+.notepad:nth-child(even) {
+    display: block;
+    height: 150px;
+    width: 150px;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
+    transform: rotate(-2deg);
+    /* background-color: rgb(253, 253, 17); */
+    background-color: #ffc;
+}
+
+.notepad:nth-child(odd):hover {
+    transform: rotate(-5deg)
+}
+
+.notepad:nth-child(even):hover {
+    transform: rotate(5deg)
+}
+
 .notepad h5 {
     width: 80%;
     margin: auto;
@@ -83,4 +104,52 @@
     margin-bottom: 3px;
     list-style: none;
     font-size: 80%;
+}
+
+/* Paper */
+
+.notebookpaper {
+    display: inline-block;
+    background-color: #f5f5f5; 
+    width: 600px;
+    margin: 2px;
+    padding: 0;
+}
+
+.notebookpaper h4 {
+    color: #E76814;
+    font-size: 42px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.notebookpaper-list {
+    color: #555;
+    font-size: 22px;
+    padding: 0 !important;
+    width: 599px;
+    font-family: courier, monospace;
+    border: 1px solid #dedede; 
+}
+
+.notebookpaper-list li {
+    list-style: none;
+    border-bottom: 1px dotted #ccc;
+    text-indent: 25px;
+    height: 15px;
+    padding: 10px;
+    /* text-transform: capitalize; */
+}
+
+.notebookpaper-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.notebookpaper-lines {
+    border-left: 1px solid #ffaa9f;
+    border-right: 1px solid #ffaa9f;
+    width: 2px;
+    float: left;
+    height: 495px;
+    margin-left: 40px;
 }
