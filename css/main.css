@@ -67,10 +67,13 @@
     background-attachment: fixed;
 }
 
+.desktop-container {
+
+}
+
 aside {
     display: inline-block;
     position: relative;
-    vertical-align: middle;
 }
 
 /* Notepad */
@@ -121,6 +124,7 @@ aside {
 
 .notebookpaper {
     display: inline-block;
+    vertical-align: top;
     background-color: #f5f5f5; 
     width: 601px;
     margin: 2px 15px 30px 2px;
