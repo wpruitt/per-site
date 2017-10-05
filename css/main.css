@@ -58,8 +58,7 @@
     padding-left: 6px;
     
 }
-
-/* MainPage*/
+/* Body-Backgrounds */
 #main-body {
     background-image: url("../images/quill.jpeg");
     background-size: cover;
@@ -67,6 +66,14 @@
     background-attachment: fixed;
 }
 
+#bio-body {
+    background-image: url("../images/NightSky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+/* MainPage*/
 .desktop-container {
 
 }
