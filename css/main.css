@@ -1,3 +1,4 @@
+/* Universal */
 /* Page Headers */
 
 #main-header{
@@ -58,7 +59,9 @@
     padding-left: 6px;
     
 }
+
 /* Body-Backgrounds */
+
 #main-body {
     background-image: url("../images/quill.jpeg");
     background-size: cover;
@@ -73,17 +76,15 @@
     background-attachment: scroll;
 }
 
-/* MainPage*/
-.desktop-container {
+/* MainPage */
 
-}
+/* Notepad */
 
-aside {
+.notepads {
     display: inline-block;
     position: relative;
 }
 
-/* Notepad */
 .notepad:nth-child(odd) {
     display: block;
     height: 150px;
@@ -181,3 +182,58 @@ aside {
     height: 614px;
     margin-left: 40px;
 }
+
+/* Bio-Page */
+
+/* Info-Cards */
+
+.bio-info-card-ar {
+    width: 80%;
+    height: 260px;
+    margin: 0 auto 30px auto;
+    background: rgba(54, 4, 4, 0.22);
+    color: #CEC7C7;
+}
+
+#card-article-left {
+    width: 60%;
+    display: inline-block;
+    
+}
+
+#card-aside-right {
+    display: inline-block;
+    vertical-align: middle;
+    right: 0;
+    width: 30%;
+    height: 98%;
+    border-left: 2px solid white;
+}
+
+#authograph-img {
+    float: right;
+    vertical-align: middle;
+    max-width: 98%;
+    /* max-height: 100%; */
+}
+
+.bio-info-card-al {
+    width: 80%;
+    height: 260px;
+    margin: 30px auto 0 auto;
+    background: rgba(54, 4, 4, 0.22);
+    color: #CEC7C7;
+}
+
+#card-article-right {
+    display: inline-block;
+}
+
+#card-aside-left {
+    display: inline-block;
+    width: 33%;
+    border-right: 2px solid white;
+}
+
+
+
