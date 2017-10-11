@@ -76,6 +76,10 @@
     background-attachment: scroll;
 }
 
+/* Paragraph-Indent */
+
+p.indent { padding-left: 1.8em }
+
 /* MainPage */
 
 /* Notepad */
@@ -235,5 +239,4 @@
     border-right: 2px solid white;
 }
 
-
-
+/* More Me / Blog */
