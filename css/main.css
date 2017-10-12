@@ -217,28 +217,39 @@ p.indent { padding-left: 1.8em }
     width: 80%;
     height: 260px;
     margin: 0 auto 30px auto;
+    padding: auto;
     background: rgba(54, 4, 4, 0.22);
     color: #CEC7C7;
+    overflow: auto;
+}
+
+.bio-info-card-ar a:visited {
+    color: white;
 }
 
 #card-article-left {
-    width: 60%;
     display: inline-block;
-    
+    max-width: 60%;
+    max-height: 98%;
+    margin: auto;
+    padding:.5em;
+    word-wrap: break-word;
 }
 
 #card-aside-right {
     display: inline-block;
-    vertical-align: middle;
-    right: 0;
-    width: 30%;
-    height: 98%;
-    border-left: 2px solid white;
+    max-width: 30%;
+    max-height: 98%;
+    align-self: auto;
+    right: 2;
+    /* vertical-align: middle; */
+    /* right: 0; */
+    /* border-left: 2px solid white; */
 }
 
 #authograph-img {
-    float: right;
-    vertical-align: middle;
+    display: block;
+    margin: auto;
     max-width: 98%;
     /* max-height: 100%; */
 }
