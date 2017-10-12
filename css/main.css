@@ -76,6 +76,32 @@
     background-attachment: scroll;
 }
 
+#moreme-body {
+    background-image: url("../images/cycling.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+#moreme-footer {
+    color: white;
+}
+
+#bio-footer {
+    color: white;
+}
+
+/* Paragraph-Indent */
+
+p.indent { padding-left: 1.8em }
+
 /* MainPage */
 
 /* Notepad */
@@ -246,5 +272,23 @@
     border-right: 2px solid white;
 }
 
+/* More Me / Blog */
 
+.blog-post-container {
+    width: 80%;
+    margin: auto;
+    background: rgba(233, 236, 232, 0.65);
+}
 
+.blog-title {
+    color: rgba(33, 33, 33, 1)
+}
+
+.blog-date {
+    color: rgba(33, 33, 33, 1)
+
+}
+
+.blog-main-text {
+    color: rgba(33, 33, 33, 1)
+}
