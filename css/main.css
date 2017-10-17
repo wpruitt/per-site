@@ -60,6 +60,26 @@
     
 }
 
+/* Body/HTML */
+
+height, body {
+    height: 100%;
+}
+body {
+    overflow: scroll;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px; 
+  }
+
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+
 /* Body-Backgrounds */
 
 #main-body {
@@ -86,16 +106,24 @@
 /* Footer */
 
 footer {
+    display: block;
     position: fixed;
     bottom: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 1px;
+    background-color: rgba(255, 255, 255, 0.898);
+    color: black;
+    text-align: center;
+    border-top: 2px ridge black 
 }
 
 #moreme-footer {
-    color: white;
+    color: rgba(20, 19, 19, 0.782);
 }
 
 #bio-footer {
-    color: white;
+    color: rgba(160, 42, 42, 0.456);
 }
 
 /* Paragraph-Indent */
@@ -265,7 +293,7 @@ p.indent { padding-left: 1.8em }
 
 .blog-post-container {
     width: 80%;
-    margin: .5em auto .5em auto;
+    margin: .5em auto 1em auto;
     padding: .5em;
     background: rgba(233, 236, 232, 0.65);
 }
